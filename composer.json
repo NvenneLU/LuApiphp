@@ -1,24 +1,24 @@
 {
-    "name": "nvennelu/luapiphp",
-    "description": "API connection for Lauretian API",
-    "keywords": ["api", "composer", "package", "private", "laurentian", "university"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Nicolas Venne",
-            "email": "nvenne@laurentian.ca"
-        }
-    ],
-    "type": "library",
-    "require": {
-		"php": ">=5.4"
-    },
+  "name": "nvennelu/luapiphp",
+  "description": "API connection for Lauretian API",
+  "keywords": ["composer", "library"],
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Nicolas Venne",
+          "email": "nvenne@laurentian.ca"
+      }
+  ],
+  "type": "library",
+  "require": {
+	   "php": ">=5.4"
+  },
 	"require-dev": {
-		"phpunit/phpunit": "4.8.36"
-    },
+		"phpunit/phpunit": "4.8.36" 
+  },
 	"autoload": {
-        "psr-4": {
-            "NvenneLU\\LuApiphp\\": "src/"
-        }
+    "psr-4": {
+        "NvenneLU\\LuApiphp\\": "src/"
     }
+  }
 }
